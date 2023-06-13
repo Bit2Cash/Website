@@ -1,0 +1,415 @@
+/*
+ ==============================================
+ Responsive Style  (max-width : 1780)
+ ==============================================
+ */
+@media screen and (max-width: 1780px) and (min-width: 1401px) {
+  .bannerHome {
+    height: 100vh !important;
+    padding-top: 20px !important;
+  }
+  .titleHeaderHome {
+    width: 98%;
+  }
+  .titleHeaderHome h1 {
+    font-size: 2.8em !important;
+  }
+  .txtHeaderHome::before {
+    top: 5px !important;
+  }
+  .txtHeaderHome p {
+    font-size: 1.8em !important;
+  }
+  .stepsUseLeft img,
+  .stepsUseRight img,
+  .stepsUseOne img {
+    width: 94% !important;
+  }
+  .stepsUseMore ul li {
+    width: 100px;
+  }
+  .stepsUseMore ul li img {
+    height: auto !important;
+    width: 100% !important;
+  }
+  .divRightHeaderHome {
+    top: 100px !important;
+  }
+}
+
+/*
+ ==============================================
+ Responsive Style (max-width : 1400px)
+ ==============================================
+ */
+@media only screen and (max-width: 1400px) {
+  .bannerHome {
+    height: 100vh !important;
+    padding-top: 20px !important;
+  }
+  .titleHeaderHome {
+    width: 90%;
+  }
+  .titleHeaderHome h1 {
+    font-size: 2.8em !important;
+  }
+  .txtHeaderHome::before {
+    top: 5px !important;
+  }
+  .txtHeaderHome p {
+    font-size: 1.8em !important;
+  }
+  .stepsUseLeft img,
+  .stepsUseRight img,
+  .stepsUseOne img {
+    width: 90% !important;
+  }
+  .stepsUseMore ul li {
+    width: 100px;
+  }
+  .stepsUseMore ul li img {
+    height: auto !important;
+    width: 100% !important;
+  }
+  .divRightHeaderHome {
+    top: 100px !important;
+  }
+}
+/*
+==============================================
+Responsive Style (max-width : 1024px)
+==============================================
+*/
+@media only screen and (max-width: 1024px) {
+  .divLeftHeaderHome {
+    width: 90%;
+  }
+  .titleHeaderHome h1 {
+    font-size: 2.5em !important;
+  }
+  .txtHeaderHome::before {
+    top: 10px;
+  }
+  .txtHeaderHome p {
+    font-size: 1.8em !important;
+  }
+  .stepsUse {
+    flex-direction: column;
+    margin-top: 0px !important;
+  }
+  .stepsUseOne {
+    margin-top: 20px !important;
+  }
+  .stepsUseLeft3 {
+    right: 0px;
+  }
+  .stepsUseRight4 {
+    left: 0px;
+  }
+  .stepsUseRight,
+  .stepsUseLeft3,
+  .stepsUseRight4,
+  .stepsUseOne {
+    top: 0px !important;
+  }
+  .stepsUseLeft img,
+  .stepsUseRight img {
+    width: 40% !important;
+  }
+  .stepsUseOne img {
+    width: 60% !important;
+  }
+  .stepsUseOne .stepsUseTxt {
+    margin-top: 100px;
+  }
+  .stepsUseMore ul li{  
+    width: auto !important;
+  }
+  .stepsUseMore ul li img {
+    height:  auto !important;
+    width: 100% !important;
+  }
+  .filterMaps ul li {
+    margin: 0px 10px;
+  }
+  .filterMaps ul li:first-child {
+    margin-left: 0px;
+  }
+  .filterMaps ul li:last-child {
+    margin-left: 0px;
+  }
+  .sectionComoUsarlo::before {
+    height: 350px !important;
+  }
+  /** REGISTRO Y LOGIN */
+  .formContact{
+    border-radius: 0px !important;
+  }
+  .tabLogin ul .active{
+    box-shadow: 10px 0px 8px 0 rgba(98, 96, 101) !important;
+  }
+  .tabLogin ul .noactiveLogin{
+    position: relative;
+    right: 20px;
+  }
+  .sectionRegister .tabLogin ul .active{
+    box-shadow: -10px 0px 8px 0px rgba(98, 96, 101) !important;
+    left: -20px;
+    position: relative;
+  }
+  .borderTopForm{
+    width: 100% !important;
+  }
+}
+/*
+==============================================
+Responsive Style (max-width : 940px)
+==============================================
+*/
+@media only screen and (max-width: 940px) {
+}
+/*
+==============================================
+Responsive Style (max-width : 768px)
+==============================================
+*/
+@media only screen and (max-width: 768px) {
+  .am_header_nav {
+    left: -110%;
+    position: absolute;
+  }
+  .am_header_nav li {
+    font-size: 1.3em;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+    padding-right: 30px;
+  }
+  .am_header_nav li:last-child {
+    margin-bottom: 0px;
+  }
+  .menuMobil {
+    display: flex;
+  }
+  .menuMobilNoview{
+    display: none;
+  }
+  .App-logo img {
+    height: 40px;
+  }
+  .menuMobilView {
+    background: rgba(66, 39, 135, 1);
+    background: -moz-linear-gradient(
+      left,
+      rgba(66, 39, 135, 1) 0%,
+      rgba(29, 22, 87, 1) 100%
+    );
+    background: -webkit-gradient(
+      left top,
+      right top,
+      color-stop(0%, rgba(66, 39, 135, 1)),
+      color-stop(100%, rgba(29, 22, 87, 1))
+    );
+    background: -webkit-linear-gradient(
+      left,
+      rgba(66, 39, 135, 1) 0%,
+      rgba(29, 22, 87, 1) 100%
+    );
+    background: -o-linear-gradient(
+      left,
+      rgba(66, 39, 135, 1) 0%,
+      rgba(29, 22, 87, 1) 100%
+    );
+    background: -ms-linear-gradient(
+      left,
+      rgba(66, 39, 135, 1) 0%,
+      rgba(29, 22, 87, 1) 100%
+    );
+    background: linear-gradient(
+      to right,
+      rgba(66, 39, 135, 1) 0%,
+      rgba(29, 22, 87, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#422787', endColorstr='#1d1657', GradientType=1 );
+    height: 100%;
+    
+    left: 105%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 85%;
+    z-index: 99;
+    transition: 0.3s all ease;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .menuMobilView .closeMenuMobil {
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    font-size: 2em;
+    height: 0.8em;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    right: 30px;
+    top: 32px;
+    width: 0.8em;
+    z-index: 100;
+  }
+  .menuMobilView .closeMenuMobil img{
+    height: 100%;
+    width: auto;
+    
+  }
+  .menuMobilView .loginMenu {
+    display: block;
+  }
+  .menuMobilView .loginMenu .menuLogin {
+    display: block;
+    left: 50%;
+    top: 90%;
+    transform: translateX(-50%);
+    width: 95%;
+  }
+  .menuMobilView .loginMenu .menuLogin ul li {
+    margin: 0px;
+    padding: 0px;
+  }
+  .menuMobilView .loginMenu .menuLogin ul li:first-child {
+    border: none;
+    position: relative;
+  }
+  .menuMobilView .loginMenu .menuLogin ul li:first-child::after {
+    background: var(--color-moradoEnlace);
+    content: "";
+    height: 50%;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    width: 2px;
+  }
+  .menuMobilViewActive{
+    left: 15%;
+    transition: 0.3s all ease;
+  }
+  /*
+  HOME
+  */
+  .menuLogin {
+    display: none;
+  }
+  .titleHeaderHome {
+    width: 90% !important;
+  }
+  .titleHeaderHome h1,
+  .txtHeaderHome {
+    text-align: left !important;
+    width: 100%;
+  }
+  .txtHeaderHome::before {
+    top: 5px !important;
+  }
+  .bannerHome .divRightHeaderHome {
+    display: none;
+  }
+  
+  .sectionComercios {
+    margin-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .txtSectionComercios {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .listMapOpt {
+    display: none !important;
+  }
+  .filterMaps {
+    padding-top: 50px;
+    position: relative;
+  }
+  .filterMaps ul .textInput {
+    position: absolute !important;
+    top: -30px;
+    width: 94%;
+  }
+  .textInput input {
+    width: 100% !important;
+  }
+  /**/
+  .App-header {
+    padding: 0px 30px;
+  }
+  .sectionAliados {
+    padding-bottom: 200px;
+  }
+  .divBannerTop {
+    display: none;
+  }
+  .sectionComoUsarlo {
+    padding: 60px 30px !important;
+    padding-bottom: 100px !important;
+  }
+  .stepsUseMore ul li {
+    width: auto;
+  }
+  .stepsUseMore ul li img {
+    height: 100% !important;
+    width: auto !important;
+  }
+  .storeApps li {
+    height: 40px !important;
+  }
+  .infoMapSelectHome {
+    background: #fff;
+    padding: 40px;
+    position: absolute !important;
+    top: 0;
+    width: 90% !important;
+    z-index: 11;
+  }
+  .closeInfoMap {
+    right: 1em !important;
+    top: 1em !important;
+  }
+  .chartsImgToptHeaderHome{
+    width: 100% !important;
+  }
+}
+/*
+==============================================
+Responsive Style (max-width : 568px)
+==============================================
+*/
+@media only screen and (max-width: 568px) {
+  .divLeftHeaderHome {
+    top: 0% !important;
+  }
+}
+/*
+==============================================
+Responsive Style (max-width : 480px)
+==============================================
+*/
+@media screen and (max-width: 480px) {
+  .filterMaps ul {
+    flex-wrap: wrap;
+  }
+  .filterMaps ul li {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .paddingLeft {
+    padding-left: 0 !important;
+    padding-top: 10px;
+  }
+}
+/*
+==============================================
+Responsive Style (max-width : 380px)
+==============================================
+*/
+@media only screen and (max-width: 380px) {
+}

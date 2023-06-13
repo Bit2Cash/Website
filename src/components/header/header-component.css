@@ -1,0 +1,128 @@
+.App-header {
+  background: var(--color-morado);
+  height: 80px;
+  padding: 0px 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999999;
+}
+.App-header .pure-g {
+  height: 100%;
+}
+.App-logo {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: flex-start;
+  padding-left: 60px;
+  width: 100%;
+}
+.App-logo img {
+  height: 60%;
+  width: auto;
+}
+.am_header_nav {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0px;
+  width: 90%;
+}
+.am_header_nav li {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.am_header_nav li a{
+  cursor: pointer;
+}
+.am_header_nav li a:hover{
+  font-weight: 700;
+}
+.menuMobil {
+  align-items: center;
+  align-content: center;
+  display: none;
+  flex-direction: column;
+  float: right;
+  height: 100%;
+  justify-content: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+.menuMobil li {
+  background: #fff;
+  height: 3px;
+  margin-bottom: 5px;
+  width: 30px;
+}
+.closeMenuMobil {
+  display: none;
+}
+.loginMenu{
+  display: none;
+}
+@media only screen and (max-width: 1200px) {
+  .App-header {
+    padding: 0;
+  }
+  .App-logo {
+    padding-left: 10px;
+  }
+  .am_header_nav {
+    width: 93%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .App-header .pure-g {
+    flex-wrap: wrap;
+  }
+  .App-header .pure-g .pure-u-4-24,
+  .App-header .pure-g .pure-u-20-24 {
+    width: 100%;
+  }
+  .App-logo a {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .App-header {
+    height: auto;
+  }
+  .titleHeaderHome h1 {
+    font-size: 55px !important;
+  }
+  .divRightHeaderHome {
+    top: 89px;
+    left: 34px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .App-header {
+    height: auto;
+    padding: 0 30px;
+    padding-bottom: 10px;
+  }
+  .App-header > .pure-g {
+    flex-wrap: wrap;
+  }
+  .App-header > .pure-g .pure-u-4-24 {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .am_header_nav {
+    flex-wrap: wrap;
+  }
+  .am_header_nav li {
+    width: 100%;
+    padding: 5px 0;
+  }
+}

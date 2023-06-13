@@ -1,0 +1,1028 @@
+/*
+==============================================
+Genera styles |Home
+==============================================
+*/
+
+section {
+  min-height: 500px;
+  padding: 60px 120px;
+  text-align: center;
+  width: 100%;
+}
+/*
+==============================================
+Submenu Login Home
+==============================================
+*/
+
+.menuLogin {
+  background: rgba(255, 162, 0, 1);
+  background: -moz-linear-gradient(
+    top,
+    rgba(255, 162, 0, 1) 0%,
+    rgba(255, 183, 0, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, rgba(255, 162, 0, 1)),
+    color-stop(100%, rgba(255, 183, 0, 1))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(255, 162, 0, 1) 0%,
+    rgba(255, 183, 0, 1) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(255, 162, 0, 1) 0%,
+    rgba(255, 183, 0, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(255, 162, 0, 1) 0%,
+    rgba(255, 183, 0, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 162, 0, 1) 0%,
+    rgba(255, 183, 0, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffa200', endColorstr='#ffb700', GradientType=0);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(173, 171, 173, 1);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(173, 171, 173, 1);
+  box-shadow: 0px 0px 14px 0px rgba(173, 171, 173, 1);
+  overflow: hidden;
+  position: absolute;
+  right: 190px;
+  top: 0px;
+  width: 250px;
+}
+
+.menuLogin ul {
+  align-items: center;
+  display: flex;
+  height: 55px;
+  justify-content: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.menuLogin ul li {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.menuLogin ul li:hover {
+  background: #dc8800;
+  font-weight: 600;
+}
+.menuLogin ul li:first-child::after {
+  content: "";
+  background: var(--color-moradoEnlace);
+  position: absolute;
+  right: 0;
+  width: 2px;
+  height: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.menuLogin ul li a {
+  color: var(--color-moradoEnlace);
+  font-weight: 600;
+}
+/*
+==============================================
+Banner Home
+==============================================
+*/
+
+.divLeftHeaderHome {
+  position: relative;
+  /* top: 50px; */
+  top: 10%;
+}
+
+.bannerHome {
+  background: #fff;
+  background-size: cover;
+  height: 90vh;
+  position: relative;
+  top: 80px;
+}
+
+.wrapperIcos {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.icoLeft {
+  left: -4%;
+  position: absolute;
+  top: -180px;
+  opacity: 0;
+  transition: all 3s cubic-bezier(0.6, -0.01, 0, 1.26);
+}
+
+.icoLeftAnimate {
+  left: 12%;
+  position: absolute;
+  top: -180px;
+  opacity: 1;
+  transition: all 3s cubic-bezier(0.6, -0.01, 0, 1.26);
+}
+
+.icoRightTop {
+  position: absolute;
+  top: -100px;
+  left: 52%;
+  transition: all 3s cubic-bezier(0.6, -0.01, 0, 1.26);
+}
+
+.icoRightTopAnimate {
+  position: absolute;
+  top: -100px;
+  left: 40%;
+  transition: all 3s cubic-bezier(0.6, -0.01, 0, 1.26);
+}
+
+.icoRightTop img {
+  height: 300px;
+}
+
+.icoRightMiddle {
+  position: absolute;
+  right: 25%;
+  top: 10%;
+  transition: all 3s cubic-bezier(0.6, -0.01, 0, 1.26);
+}
+
+.icoRightMiddleAnimate {
+  position: absolute;
+  right: 32%;
+  top: 10%;
+  transition: all 3s cubic-bezier(0.6, -0.01, 0, 1.26);
+}
+
+.icoRightBottom {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  left: 56%;
+  transition: all 3s cubic-bezier(0.6, -0.01, 0, 1.26);
+}
+
+.icoRightBottomAnimate {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  left: 53%;
+  transition: all 3s cubic-bezier(0.6, -0.01, 0, 1.26);
+}
+
+.titleHeaderHome {
+  width: 80%;
+}
+
+.titleHeaderHome h1 {
+  color: var(--color-morado);
+  font-size: 4em;
+  text-align: left;
+}
+
+.txtHeaderHome {
+  color: var(--color-moradoClaro);
+  padding-top: 20px;
+  position: relative;
+  text-align: left;
+  width: 80%;
+}
+
+.txtHeaderHome p {
+  font-size: 2em;
+}
+
+.txtHeaderHome::before {
+  background: var(--color-morado);
+  content: "";
+  height: 5px;
+  left: 0;
+  position: absolute;
+  top: 5px;
+  width: 60%;
+}
+
+.divRightHeaderHome {
+  float: right;
+  position: relative;
+  top: 20%;
+  width: 350px;
+}
+
+.infoDivHeaderHome {
+  background: var(--color-gris);
+  padding: 30px;
+  position: relative;
+}
+
+.infoDivHeaderHome ul {
+  align-items: center;
+  background: #fff;
+  border-radius: 20px;
+  color: var(--color-morado);
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  list-style: none;
+  margin: 0px;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.infoDivHeaderHome ul li {
+  height: 100%;
+  padding: 8px 0px;
+  text-align: center;
+  width: 33.333%;
+  transition: 0.1s all ease;
+}
+.infoDivHeaderHome ul li:hover {
+  background: #a8a8a8;
+  font-weight: 600;
+  transition: 0.1s all ease;
+}
+.infoDivHeaderHome ul li.active,
+.react-tabs__tab--selected {
+  background: var(--color-moradoSuave);
+  color: #fff;
+}
+
+.infoDivDetHeaderHome {
+  padding: 4px;
+  text-align: left;
+}
+
+.infoDivDetHeaderHome h3 {
+  color: var(--color-moradoClaro);
+  font-size: 68px;
+  margin: 10px 0px;
+}
+
+.infoDivDetPrHeaderHome {
+  border-bottom: 2px solid var(--color-grisOscuro);
+  color: var(--color-moradoClaro);
+  font-family: "Gotham Medium";
+  font-size: 28px;
+  padding-bottom: 14px;
+}
+
+.chartsHeaderHome {
+  border-bottom: 2px dashed var(--color-grisOscuro);
+  border-top: 2px dashed var(--color-grisOscuro);
+  margin: 20px 0px;
+  padding: 10px 0px;
+}
+
+.chartsImgHeaderHome {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.chartsImgHeaderHome img {
+  height: auto;
+  width: 100%;
+}
+
+.chartsHeaderHome p {
+  color: var(--color-grisOscuro);
+  font-family: "Gotham Medium";
+  font-size: 28px;
+  text-align: right;
+}
+
+.chartsImgToptHeaderHome {
+  background: var(--color-morado);
+  height: 16px;
+  left: 50%;
+  position: absolute;
+  top: -8px;
+  transform: translateX(-50%);
+  width: 105%;
+}
+
+.chartsImgFootHeaderHome {
+  bottom: -39px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.chartsImgFootHeaderHome img {
+  height: auto;
+  width: 100%;
+}
+/*
+==============================================
+Section como usarlo |Home
+==============================================
+*/
+
+.sectionComoUsarlo {
+  background: url("../../assets/images/home/stars.png"),
+    url("../../assets/images/home/comousarlo-background.jpg");
+  background-position: 150% center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  min-height: 1000px;
+  position: relative;
+  padding-bottom: 0px;
+  transition: all 1.8s cubic-bezier(0.6, -0.01, 0, 1.26);
+  /* -webkit-animation: bgStars 8s cubic-bezier(0, 0, 0, 0.98) infinite;
+  animation: bgStars 8s cubic-bezier(0, 0, 0, 0.98) infinite; */
+}
+
+.sectionComoUsarloAnimate {
+  background: url("../../assets/images/home/stars.png"),
+    url("../../assets/images/home/comousarlo-background.jpg");
+  background-position: 0% center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  transition: all 1.8s cubic-bezier(0.6, -0.01, 0, 1.26);
+}
+
+@keyframes bgStars {
+  0% {
+    background-position: 70% center;
+  }
+  50% {
+    background-position: center, 30% center;
+  }
+  100% {
+    background-position: 70% center;
+  }
+}
+
+.sectionComoUsarlo h2 {
+  color: var(--color-amarillo);
+  text-align: center;
+}
+
+.sectionComoUsarlo::before {
+  background: var(--color-amarillo);
+  bottom: 0;
+  content: "";
+  height: 200px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.stepsUse {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  width: 100%;
+}
+
+.stepsUseLeft,
+.stepsUseRight {
+  width: 32%;
+}
+
+.stepsUseRight {
+  position: relative;
+  top: 270px;
+}
+
+.stepsUseTxt p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.stepsUseTxt span {
+  color: var(--color-amarillo);
+}
+
+.stepsUseMore {
+  width: 100%;
+}
+
+.stepsUseMore ul {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  margin-top: 40px;
+}
+
+.stepsUseMore ul li {
+  border-radius: 10px;
+  height: 50px;
+  margin: 0px 10px;
+  overflow: hidden;
+  position: relative;
+  transition: 0.3s all ease;
+  width: 100%;
+}
+.stepsUseMore ul li:hover {
+  height: 55px;
+  opacity: 0.5;
+  transition: 0.3s all ease;
+  width: 103%;
+}
+.stepsUseMore ul li a {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+.stepsUseMore ul li img {
+  height: 100%;
+  width: auto;
+}
+
+.stepsUseLeft3 {
+  position: relative;
+  right: -40px;
+}
+
+.stepsUseRight4 {
+  left: 30px;
+  top: 290px;
+}
+
+.stepsUseRight4 .stepsUseTxt {
+  left: 60px;
+  position: relative;
+}
+
+.stepsUseOne {
+  margin-top: 56px;
+  position: relative;
+  top: 37px;
+  z-index: 2;
+}
+
+.stepsUseOne .stepsUseTxt p {
+  color: var(--color-moradoClaro);
+  font-size: 20px;
+  position: relative;
+  top: -100px;
+}
+/*
+==============================================
+Section comercio |Home
+==============================================
+*/
+
+.sectionComercios h2 {
+  color: var(--color-morado);
+}
+
+.txtSectionComercios {
+  color: var(--color-moradoClaro);
+  margin: 40px 0px;
+}
+
+.txtSectionComercios span {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.infoMapsHome {
+  align-items: center;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(207, 205, 207, 1);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(207, 205, 207, 1);
+  box-shadow: 0px 0px 5px 1px rgba(207, 205, 207, 1);
+  position: relative;
+}
+
+.infoMapSelectHome {
+  height: 100%;
+  padding: 20px;
+  position: relative;
+  text-align: left;
+  width: 350px;
+}
+
+.infoMapSelectHome h3 {
+  color: #000;
+}
+
+.ratingInfoMapSelectHome p {
+  color: #000;
+  font-size: 18px;
+}
+
+.imgInfoMapSelectHome {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+  overflow: hidden;
+}
+
+.imgInfoMapSelectHome img {
+  height: auto;
+  width: 100%;
+}
+
+.dataInfoMapSelectHome ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.dataInfoMapSelectHome ul li {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0px;
+}
+
+.dataInfoMapSelectHome ul li .icoInfoMap {
+  margin-right: 20px;
+}
+
+.dataInfoMapSelectHome ul li p {
+  color: #000;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.closeInfoMap {
+  border: 1px solid;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filterMaps {
+  margin: 40px 0px;
+}
+
+.filterMaps ul li:nth-of-type(2) select {
+  text-align: center;
+  text-transform: uppercase;
+  /* text-align-last: center; */
+  padding-left: 20px;
+  appearance: none;
+  background-size: 16px auto, 14px auto;
+  background-repeat: no-repeat, no-repeat;
+  font-size: 1.1em;
+}
+.filterMaps ul li:nth-of-type(3) select {
+  text-align: center;
+  text-transform: uppercase;
+  /* text-align-last: center; */
+  padding-left: 20px;
+  appearance: none;
+  background-size: 16px auto, 20px auto;
+  background-repeat: no-repeat, no-repeat;
+  font-size: 1.1em;
+}
+.icoSelect,
+.icoSelectRight{
+  align-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  width: 16px;
+}
+.icoSelect img,
+.icoSelectRight img{
+  height: auto;
+  width: 100%;
+}
+.filterMaps ul li:nth-of-type(2) select:focus,
+.filterMaps ul li:nth-of-type(3) select:focus {
+  outline-color: transparent;
+}
+.filterMaps ul {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.filterMaps ul li {
+  background: #4a2b94;
+  border-radius: 12px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  min-width: 200px;
+  padding: 14px 16px;
+}
+
+.filterMaps ul li label {
+  margin-right: 20px;
+}
+
+.filterMaps ul li select {
+  background: #4a2b94;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+
+.filterMaps ul li select option {
+  background-color: #fff;
+  color: #505050;
+}
+
+.filterMaps ul .textInput {
+  background: transparent !important;
+}
+
+.filterMaps ul .textInput input {
+  background: var(--color-gris);
+  border-radius: 14px;
+  border: 1px solid rgba(241, 241, 242, 1);
+  color: #4a2b94;
+  height: 50px;
+  padding-left: 20px;
+  width: 200px;
+  box-shadow: inset 0px 0px 8px -4px black;
+}
+
+.filterMaps ul .textInput {
+  position: relative;
+}
+
+.filterMaps ul .textInput input:focus {
+  border: none;
+  box-shadow: none;
+  outline-color: transparent;
+}
+
+.filterMaps ul .textInput input::placeholder {
+  font-family: "Gotham Book Italic";
+}
+
+.filterMaps ul li input[type="radio"] {
+  margin-right: 5px;
+  width: 1.4em;
+  height: 1.4em;
+  position: relative;
+  top: 0.3em;
+}
+
+.filterMaps ul .textInput p {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  padding-right: 20px;
+  position: absolute;
+  right: 0px;
+  width: 50px;
+}
+
+.filterMaps ul .textInput p img {
+  height: 50%;
+  width: auto;
+}
+/*
+==============================================
+Section que es |Home
+==============================================
+*/
+
+.sectionQueEs {
+  background: url("../../assets/images/home/quees-background3.png"),
+    url("../../assets/images/home/quees-background.png"),
+    url("../../assets/images/home/quees-background2.jpg");
+  background-position: 60% center, 157% center, center;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 80%, cover, cover;
+  overflow: visible !important;
+  position: relative;
+  transition: all 1.4s cubic-bezier(0.6, -0.01, 0, 1.26);
+  /* -webkit-animation: bgStars2 6s cubic-bezier(0, 0, 0, 0.98) infinite;
+  animation: bgStars2 6s cubic-bezier(0, 0, 0, 0.98) infinite; */
+}
+
+.sectionQueEsAnimate {
+  background: url("../../assets/images/home/quees-background3.png"),
+    url("../../assets/images/home/quees-background.png"),
+    url("../../assets/images/home/quees-background2.jpg");
+  background-position: -13% center, 70% center, center;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 80%, cover, cover;
+  transition: all 1.4s cubic-bezier(0.6, -0.01, 0, 1.26);
+}
+
+@keyframes bgStars2 {
+  0% {
+    background-position: 60% center, 70% center, center;
+  }
+  50% {
+    background-position: 80% center, 30% center, center;
+  }
+  100% {
+    background-position: 60% center, 70% center, center;
+  }
+}
+
+.sectionQueEs h2 {
+  color: var(--color-amarillo);
+}
+
+.infoQueEs {
+  color: #fff;
+  margin: 0 auto;
+  overflow: visible !important;
+  padding: 40px 0px;
+  width: 60%;
+}
+
+.sectionQueEs .divRightHeaderHome {
+  float: inherit;
+  margin: 0 auto;
+  top: 70px;
+  z-index: 99999;
+}
+/*
+==============================================
+Section nuestros aliados |Home
+==============================================
+*/
+
+.sectionAliados {
+  background: #eaeaef;
+  z-index: 1;
+}
+
+.sectionAliados h2 {
+  color: var(--color-morado);
+  margin-bottom: 40px;
+}
+
+.sectionAliados .slick-prev:before,
+.sectionAliados .slick-next:before {
+  color: var(--color-morado);
+  font-size: 30px;
+}
+/*
+==============================================
+Section before Footer
+==============================================
+*/
+
+.sectionBeforeFooter {
+  padding-bottom: 250px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .bannerHome {
+    padding: 10px 30px;
+  }
+  .txtHeaderHome {
+    width: 100% !important;
+    padding-bottom: 70px;
+  }
+  .sectionComoUsarlo {
+    padding: 30px 20px;
+  }
+  .stepsUse {
+    justify-content: none;
+  }
+  .stepsUseOne img,
+  .stepsUseLeft,
+  .stepsUseRight {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .sectionAliados h2 {
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .menuLogin {
+    left: 0;
+    width: 100%;
+  }
+  .divLeftHeaderHome {
+    width: 100%;
+  }
+  .bannerHome {
+    height: auto !important;
+    padding: 20px;
+  }
+  .titleHeaderHome {
+    width: 100%;
+  }
+  .icoRightMiddle {
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    transition: all 3s cubic-bezier(0.6, -0.01, 0, 1.26);
+    width: 50px;
+  }
+  .icoRightMiddleAnimate {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    transition: all 3s cubic-bezier(0.6, -0.01, 0, 1.26);
+    width: 50px;
+  }
+  .sectionComoUsarlo,
+  .sectionComercios,
+  .sectionQueEs,
+  .sectionAliados {
+    padding: 15px;
+    height: auto;
+  }
+  .stepsUseMore ul li img {
+    height: auto !important;
+    width: 100% !important;
+  }
+  .bannerHome .pure-g {
+    flex-wrap: wrap;
+  }
+  .bannerHome .pure-g .pure-u-15-24,
+  .bannerHome .pure-g .pure-u-1-3 {
+    width: 100%;
+  }
+  .titleHeaderHome h1,
+  .sectionQueEs h2,
+  .sectionAliados h2 {
+    font-size: 35px !important;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .titleHeaderHome,
+  .txtHeaderHome {
+    width: 100%;
+  }
+  .txtHeaderHome p {
+    font-size: 25px;
+    margin-bottom: 100px;
+  }
+  .stepsUse {
+    display: block !important;
+    padding: 0px 30px;
+    margin: 0;
+  }
+  .stepsUseNoPad {
+    padding: 0px !important;
+  }
+  .stepsUseNoPad .stepsUseTxt {
+    padding: 0px 30px !important;
+  }
+  .stepsUseOne .stepsUseTxt {
+    margin-top: 0px;
+  }
+  .sectionComoUsarlo::before {
+    height: 170px !important;
+  }
+
+  .divRightHeaderHome,
+  .stepsUseLeft3,
+  .stepsUseRight {
+    position: initial;
+    width: 100%;
+  }
+  .sectionComoUsarlo h2,
+  .sectionComercios h2 {
+    font-size: 30px !important;
+  }
+  .stepsUseLeft,
+  .stepsUseRight,
+  .infoQueEs {
+    width: 100%;
+  }
+
+  .stepsUseLeft img,
+  .stepsUseRight img {
+    width: 100%;
+  }
+  .stepsUseMore ul {
+    padding: 0;
+  }
+  .stepsUseMore ul li {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .storeApps li {
+    width: 50%;
+  }
+  .storeApps li img {
+    height: auto !important;
+    width: 100% !important;
+  }
+  .sectionComoUsarlo {
+    min-height: auto;
+    padding: 60px 0px !important;
+  }
+  .stepsUseRight4 .stepsUseTxt {
+    position: inherit;
+  }
+  .stepsUseLeft img,
+  .stepsUseRight img {
+    width: 100% !important;
+  }
+  .stepsUse {
+    flex-direction: column;
+  }
+  .stepsUseRight,
+  .stepsUseRight4,
+  .stepsUseOne {
+    top: 0px !important;
+  }
+  .stepsUseOne {
+    margin: 0;
+    top: 0px !important;
+  }
+  .stepsUseOne img {
+    width: 100% !important;
+  }
+  .stepsUseOne .stepsUseTxt p {
+    top: 0;
+  }
+  .sectionAliados {
+    padding-bottom: 200px;
+    overflow: visible !important;
+  }
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+}
+
+::selection {
+  background: #4a2b94;
+  color: white;
+}
+
+::-moz-selection {
+  background: #4a2b94;
+  color: white;
+}
+
+#reveal1 {
+  opacity: 0;
+  transform: scale(0.9);
+  background: red;
+  transition: all 1s ease-in-out;
+}
+
+#reveal1.visible {
+  opacity: 1;
+  transform: none;
+  background: green;
+}
+
+.box2 {
+  min-width: 50px;
+  height: 50px;
+  margin: 25px auto 25px auto;
+  background-color: blue;
+}
+
+#ww {
+  width: 100%;
+  height: 50px;
+  background: red;
+}

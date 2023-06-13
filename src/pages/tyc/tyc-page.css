@@ -1,0 +1,31 @@
+.sectionTyc {
+  min-height: 82vh;
+  position: relative;
+  top: 80px;
+}
+.sectionTyc h2 {
+  color: var(--color-morado);
+}
+.txtSectionTyc {
+  color: var(--color-moradoClaro);
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: justify;
+  width: 60%;
+}
+@media only screen and (max-width: 480px) {
+  .sectionTyc {
+    padding: 30px;
+    margin-bottom: 150px;
+  }
+  .sectionTyc h2 {
+    font-size: 35px !important;
+  }
+  .txtSectionTyc {
+    width: 100%;
+    margin: 15px 0 30px;
+  }
+  .sectionTyc {
+    height: auto;
+  }
+}

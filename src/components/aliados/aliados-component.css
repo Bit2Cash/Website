@@ -1,0 +1,105 @@
+.slick-slide img {
+  position: relative;
+  -webkit-animation: bgStars6 8s cubic-bezier(0, 0, 0, 0.98) infinite;
+  animation: bgStars6 8s cubic-bezier(0, 0, 0, 0.98) infinite;
+}
+
+@keyframes bgStars6 {
+  0% {
+    top: 50%;
+  }
+  50% {
+    top: 80%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+
+
+/*jssor slider loading skin double-tail-spin css*/
+
+.jssorl-004-double-tail-spin img {
+  animation-name: jssorl-004-double-tail-spin;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes jssorl-004-double-tail-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*jssor slider bullet skin 031 css*/
+
+.jssorb031 {
+  position: absolute;
+}
+
+.jssorb031 .i {
+  position: absolute;
+  cursor: pointer;
+}
+
+.jssorb031 .i .b {
+  fill: #000;
+  fill-opacity: 0.5;
+  stroke: #fff;
+  stroke-width: 1200;
+  stroke-miterlimit: 10;
+  stroke-opacity: 0.3;
+}
+
+.jssorb031 .i:hover .b {
+  fill: #fff;
+  fill-opacity: .7;
+  stroke: #000;
+  stroke-opacity: .5;
+}
+
+.jssorb031 .iav .b {
+  fill: #fff;
+  stroke: #000;
+  fill-opacity: 1;
+}
+
+.jssorb031 .i.idn {
+  opacity: .3;
+}
+
+
+/*jssor slider arrow skin 072 css*/
+
+.jssora072 {
+  display: block;
+  position: absolute;
+  cursor: pointer;
+}
+
+.jssora072 .a {
+  fill: #000;
+  fill-opacity: .8;
+  stroke: #fff;
+  stroke-width: 120;
+  stroke-miterlimit: 10;
+  stroke-opacity: .5;
+}
+
+.jssora072:hover {
+  opacity: .8;
+}
+
+.jssora072.jssora072dn {
+  opacity: .4;
+}
+
+.jssora072.jssora072ds {
+  opacity: .3;
+  pointer-events: none;
+}

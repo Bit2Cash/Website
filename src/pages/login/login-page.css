@@ -1,0 +1,215 @@
+/*
+==============================================
+Section Login
+==============================================
+*/
+
+.sectionLogin {
+  background: url("../../assets/images/login/bg_bit.png"),
+    url("../../assets/images/home/quees-background2.jpg");
+  background-position: 60% center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 80%, cover;
+  border-top: 3px dashed var(--color-principal);
+  min-height: 1000px;
+  position: relative;
+  transition: all 1.8s cubic-bezier(0.6, -0.01, 0, 1.26);
+  top: 80px;
+  /* -webkit-animation: bgStars4 6s cubic-bezier(0, 0, 0, 0.98) infinite;
+  animation: bgStars4 6s cubic-bezier(0, 0, 0, 0.98) infinite; */
+}
+.sectionLoginAnimate {
+  background: url("../../assets/images/login/bg_bit.png"),
+    url("../../assets/images/home/quees-background2.jpg");
+  background-position: 0% center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  transition: all 1.8s cubic-bezier(0.6, -0.01, 0, 1.26);
+}
+.sectionLogin h2 {
+  color: var(--color-amarillo);
+}
+
+.txtSectionLogin {
+  color: #fff;
+  font-family: "Gotham Medium";
+  margin: 40px 0px;
+  margin-bottom: 100px;
+}
+
+.sectionLogin .formContact {
+  border-top-left-radius: 0;
+}
+
+.borderTopForm {
+  background: rgba(255, 162, 0, 1);
+  background: -moz-linear-gradient(
+    top,
+    rgba(255, 162, 0, 1) 0%,
+    rgba(255, 183, 0, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, rgba(255, 162, 0, 1)),
+    color-stop(100%, rgba(255, 183, 0, 1))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(255, 162, 0, 1) 0%,
+    rgba(255, 183, 0, 1) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(255, 162, 0, 1) 0%,
+    rgba(255, 183, 0, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(255, 162, 0, 1) 0%,
+    rgba(255, 183, 0, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 162, 0, 1) 0%,
+    rgba(255, 183, 0, 1) 100%
+  );
+  height: 5px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 98%;
+}
+
+.sectionLogin .formContact p {
+  color: #000;
+  font-family: "Gotham Medium";
+  margin-bottom: 40px;
+}
+
+.tabLogin {
+  left: 0px;
+  position: absolute;
+  top: -55px;
+  width: 250px;
+}
+
+.tabLogin ul {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.tabLogin ul li {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  height: 55px;
+  padding: 0px 20px;
+}
+
+.tabLogin ul .active {
+  background: rgba(255, 162, 0, 1);
+  background: -moz-linear-gradient(
+    top,
+    rgba(255, 162, 0, 1) 0%,
+    rgba(255, 183, 0, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, rgba(255, 162, 0, 1)),
+    color-stop(100%, rgba(255, 183, 0, 1))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(255, 162, 0, 1) 0%,
+    rgba(255, 183, 0, 1) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(255, 162, 0, 1) 0%,
+    rgba(255, 183, 0, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(255, 162, 0, 1) 0%,
+    rgba(255, 183, 0, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 162, 0, 1) 0%,
+    rgba(255, 183, 0, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffa200', endColorstr='#ffb700', GradientType=0);
+  -webkit-box-shadow: 6px 0px 5px -3px rgba(98, 96, 101);
+  -moz-box-shadow: 6px 0px 5px -3px rgba(98, 96, 101);
+  box-shadow: 6px 0px 5px -3px rgba(98, 96, 101);
+  z-index: 2;
+}
+
+.tabLogin ul .noactive {
+  background: #fff;
+}
+.tabLogin ul .active {
+  box-shadow: 10px 0px 8px 0 rgba(98, 96, 101) !important;
+}
+.tabLogin ul li:hover {
+  background: #dc8800;
+  font-weight: 600;
+}
+.tabLogin ul .noactiveLogin {
+  position: relative;
+  right: 20px;
+}
+.sectionRegister .tabLogin ul .active {
+  box-shadow: -10px 0px 8px 0px rgba(98, 96, 101) !important;
+  left: -20px;
+  position: relative;
+}
+.sectionRegister .tabLogin ul li:hover {
+  background: #dc8800;
+  font-weight: 600;
+}
+.tabLogin ul li a {
+  align-items: center;
+  display: flex;
+  color: var(--color-moradoEnlace);
+  height: 100%;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.moreLogin p,
+.moreLogin a {
+  font-size: 18px;
+  margin-bottom: 0px !important;
+  text-align: left;
+}
+
+.moreLogin a {
+  color: var(--color-principal);
+  font-family: "Gotham Medium";
+  text-decoration: underline;
+}
+
+.textcenter {
+  margin-top: 20px;
+  text-align: center !important;
+}
+@media only screen and (max-width: 768px) {
+  .sectionLogin{
+    min-height: 1300px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .sectionLogin {
+    padding: 15px;
+    padding-bottom: 145px;
+  }
+  .sectionLogin h2 {
+    font-size: 45px;
+  }
+}

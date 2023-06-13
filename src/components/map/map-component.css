@@ -1,0 +1,24 @@
+/*
+==============================================
+Genera styles |Home
+==============================================
+*/
+
+.mapComerciosHome {
+  height: 500px;
+  position: relative;
+  width: 100%;
+}
+
+.tablaLista td,
+.tablaLista th {
+  padding-bottom: 1em;
+  padding-right: 0.6em;
+  text-align: left;
+}
+
+.tablaLista th {
+  text-transform: uppercase;
+  color: var(--color-morado);
+  font-family: "Gotham Bold";
+}

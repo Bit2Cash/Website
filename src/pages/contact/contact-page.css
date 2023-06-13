@@ -1,0 +1,376 @@
+/*
+==============================================
+Section Contacto
+==============================================
+*/
+
+.sectionContact {
+  background: url("../../assets/images/home/stars.png"),
+    url("../../assets/images/home/quees-background2.jpg");
+  background-position: 60% center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 80%, cover;
+  border-top: 3px dashed var(--color-moradoSuave);
+  min-height: 1200px;
+  position: relative;
+  transition: all 1.8s cubic-bezier(0.6, -0.01, 0, 1.26);
+  top: 80px;
+}
+.sectionContactAnimate {
+  background: url("../../assets/images/home/stars.png"),
+    url("../../assets/images/home/quees-background2.jpg");
+  background-position: 0% center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  transition: all 1.8s cubic-bezier(0.6, -0.01, 0, 1.26);
+}
+.sectionContact h2 {
+  color: var(--color-amarillo);
+}
+
+.txtSectionContact {
+  color: #fff;
+  font-family: "Gotham Medium";
+  margin: 40px 0px;
+  margin-bottom: 50px;
+}
+
+.formContact {
+  background: #fff;
+  border-radius: 20px;
+  left: 50%;
+  min-height: 6000px;
+  padding: 60px;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 660px;
+}
+.wrapperHidden {
+  background: #fff;
+  height: 500px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.divEnvio-L-B {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  left: -260px;
+  position: absolute;
+  top: 10px;
+  width: 255px;
+  z-index: -2;
+}
+.divEnvio-L-B img {
+  height: auto;
+  width: 100%;
+}
+.divEnvio-R-A {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: -260px;
+  top: 2%;
+  width: 255px;
+  z-index: -99999;
+}
+.airplaneL {
+  bottom: 2px;
+  height: 81px;
+  left: 2px;
+  position: absolute;
+  transform: rotate(2deg);
+  width: 74px;
+  -webkit-animation: bgSendFormL 0.4s 0s ease forwards;
+  animation: bgSendFormL 0.4s 0s ease forwards;
+}
+@keyframes bgSendFormL {
+  0% {
+    bottom: 2px;
+    left: 2px;
+  }
+  /* 25% {
+    bottom: 28.75px;
+    left: 65px;
+    transform: rotate(67.5deg);
+    width: 55.5;
+  } */
+  95% {
+    width: 74px;
+  }
+  /* 75% {
+    bottom: 86.25px;
+    left: 195px;
+    transform: rotate(22.5deg);
+    width: 12px;
+  } */
+  100% {
+    bottom: 115px;
+    left: 280px;
+    transform: rotate(90deg);
+  }
+}
+.airplane {
+  bottom: 0;
+  height: 81px;
+  left: -80px;
+  position: absolute;
+  transform: rotate(90deg);
+  -webkit-animation: bgSendForm 0.4s 0.5s ease forwards;
+  animation: bgSendForm 0.4s 0.5s ease forwards;
+  width: 74px;
+}
+@keyframes bgSendForm {
+  0% {
+    bottom: 0;
+    left: -80px;
+    transform: rotate(90deg);
+  }
+  /* 25% {
+    bottom: 48px;
+    left: 50px;
+    transform: rotate(67.5deg);
+  }
+  50% {
+    bottom: 96px;
+    left: 100px;
+    transform: rotate(45deg);
+  }
+  75% {
+    bottom: 144px;
+    left: 150px;
+    transform: rotate(22.5deg);
+  } */
+  100% {
+    bottom: 200px;
+    left: 200px;
+    transform: rotate(0deg);
+  }
+}
+.divEnvio-R-A img {
+  height: auto;
+  width: 100%;
+}
+
+.formContact input,
+.formContact textarea {
+  border: none;
+  border-bottom: 2px solid var(--color-grisBorder);
+  height: 40px;
+}
+
+.formContact textarea {
+  border: 2px solid var(--color-grisBorder);
+  border-radius: 20px;
+  height: 100px;
+  resize: none;
+}
+
+.formContact label {
+  color: #000;
+  float: left;
+  font-family: "Gotham Book";
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.formContact [class*="pure-g"] {
+  margin-bottom: 20px;
+}
+
+.paddingRight {
+  padding-right: 10px;
+}
+
+.paddingLeft {
+  padding-left: 10px;
+}
+
+.btnSend {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.btnSend button {
+  background: var(--color-morado);
+  background: rgba(28, 22, 87, 1);
+  background: -moz-linear-gradient(
+    top,
+    rgba(28, 22, 87, 1) 0%,
+    rgba(74, 43, 148, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, rgba(28, 22, 87, 1)),
+    color-stop(100%, rgba(74, 43, 148, 1))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(28, 22, 87, 1) 0%,
+    rgba(74, 43, 148, 1) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(28, 22, 87, 1) 0%,
+    rgba(74, 43, 148, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(28, 22, 87, 1) 0%,
+    rgba(74, 43, 148, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(28, 22, 87, 1) 0%,
+    rgba(74, 43, 148, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1c1657', endColorstr='#4a2b94', GradientType=0);
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-family: "Gotham Bold";
+  padding: 20px 40px;
+  transition: 0.3s all ease;
+  -webkit-appearance: none;
+}
+.btnSend button:hover {
+  padding: 25px 45px;
+  transition: 0.3s all ease;
+}
+/*
+==============================================
+Section Mail Send
+==============================================
+*/
+
+.sectionContactSend h2 {
+  margin-bottom: 60px;
+}
+
+.primaryTxt {
+  color: var(--color-moradoClaro);
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.secondTxt {
+  color: var(--color-moradoClaro);
+  margin-bottom: 80px;
+}
+
+.btnNewMsg {
+  margin: 40px;
+}
+.btnNewMsgA {
+  background: rgba(246, 246, 248, 1);
+  background: -moz-linear-gradient(
+    top,
+    rgba(246, 246, 248, 1) 0%,
+    rgba(223, 223, 230, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, rgba(246, 246, 248, 1)),
+    color-stop(100%, rgba(223, 223, 230, 1))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(246, 246, 248, 1) 0%,
+    rgba(223, 223, 230, 1) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(246, 246, 248, 1) 0%,
+    rgba(223, 223, 230, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(246, 246, 248, 1) 0%,
+    rgba(223, 223, 230, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(246, 246, 248, 1) 0%,
+    rgba(223, 223, 230, 1) 100%
+  );
+  border-radius: 20px;
+  color: var(--color-moradoSuave);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f8', endColorstr='#dfdfe6', GradientType=0);
+  font-family: "Gotham Bold";
+  padding: 20px 40px !important;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto !important;
+  margin-bottom: 40px !important;
+}
+
+
+.btnGoToHome {
+  margin-top: 60px;
+  background: var(--color-morado);
+  background: rgba(28, 22, 87, 1);
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, rgba(28, 22, 87, 1)),
+    color-stop(100%, rgba(74, 43, 148, 1))
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(28, 22, 87, 1) 0%,
+    rgba(74, 43, 148, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1c1657', endColorstr='#4a2b94', GradientType=0);
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-family: "Gotham Bold";
+  padding: 20px 40px;
+  -webkit-appearance: none;
+  max-width: 300px;
+  margin: 0 auto !important;
+  width: 100%;
+}
+.btnNewMsgA a,
+.btnGoToHome a {
+  padding: 0 !important;
+}
+@media only screen and (max-width: 1400px) {
+}
+
+@media only screen and (max-width: 900px) {
+}
+
+@media only screen and (max-width: 480px) {
+  .sectionContact {
+    padding: 15px;
+  }
+  .sectionContact h2 {
+    font-size: 45px !important;
+  }
+  .btnNewMsg a {
+    padding: 20px 40px;
+    font-size: 0.8em;
+    width: 100%;
+  }
+  .formContact {
+    height: 100%;
+    left: 50%;
+    min-height: auto;
+    padding: 30px 40px 150px;
+    transform: translateX(-50%);
+    width: 90%;
+    border-radius: 0px;
+  }
+  .formContact > form > div {
+    flex-wrap: wrap;
+  }
+}

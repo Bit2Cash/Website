@@ -1,0 +1,157 @@
+/*
+==============================================
+Style General
+==============================================
+*/
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  box-sizing: border-box;
+  color: inherit;
+  letter-spacing: 0;
+  margin: 0;
+  text-decoration: none;
+  padding: 0;
+}
+h1,
+h2 {
+  font-size: 66px;
+  letter-spacing: -2px;
+}
+h1,
+h2,
+h3 {
+  font-family: "Gotham Bold";
+}
+ul > li {
+  font-family: "Gotham Medium";
+  text-transform: uppercase;
+}
+p {
+  font-family: "Gotham Book";
+  font-size: 22px;
+}
+html {
+  -ms-text-size-adjust: none;
+  /* font-size: 16px; */
+}
+a:active {
+  color: inherit;
+}
+body {
+  background: #fff;
+  color: #555555;
+}
+img {
+  display: block;
+  margin: auto;
+}
+.woowContentFull {
+  width: 100%;
+  overflow: hidden;
+}
+.woowContent1600 {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 0.5em;
+}
+.woowContent1500_p11 {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 0.5em;
+}
+.woowContent1450 {
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 0 0.5em;
+}
+.woowContent1450_p11 {
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 0 0.5em;
+}
+.woowContent1200 {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0.5em;
+}
+.woowContent1100 {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 1.25em;
+}
+.woowContent1060 {
+  width: 100%;
+  max-width: 1060px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.woowContent980 {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.woowContent890 {
+  width: 100%;
+  max-width: 890px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.woowContent820 {
+  width: 100%;
+  max-width: 820px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0px 15px;
+}
+.woowBoxS,
+header,
+nav,
+section,
+div,
+article {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+.woowAnimCss3 {
+  visibility: hidden;
+}
+.overflow {
+  overflow: auto;
+}
+/*
+==============================================
+Style Variables color
+==============================================
+*/
+
+:root {
+  --color-amarillo: #f0b61c;
+  --color-gris: #f1f1f2;
+  --color-grisBorder: #c9c9cd;
+  --color-grisOscuro: #808184;
+  --color-principal: #452f90;
+  --color-morado: #1e1759;
+  --color-moradoClaro: #252034;
+  --color-moradoEnlace: #211c56;
+  --color-moradoSuave: #4a2b94;
+}
