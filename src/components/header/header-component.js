@@ -56,18 +56,7 @@ class Header extends React.Component {
                   src={require("../../assets/images/home/close-menu.png")}
                 ></img>
               </span>
-              {currLocation == "/" && (
-                <li onClick={this.removeClass}>
-                  <Scrollchor
-                    to="#como-usarlo"
-                    animate={{ offset: -70, duration: 500 }}
-                    spy={true}
-                    className="nav-link"
-                  >
-                    ¿Cómo usarlo?
-                  </Scrollchor>
-                </li>
-              )}
+              
               {currLocation != "/" && (
                 <li onClick={this.removeClass}>
                   <Link to="/#como-usarlo" className="link">
